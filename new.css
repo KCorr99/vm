@@ -1,0 +1,82 @@
+  {
+    margin: 0 padding:0 font-family:sans-serif;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(119, 178, 197);
+    padding: 15px
+  }
+
+  .h1 nav {
+
+    background-color: lightpink;
+    display: grid;
+    place-items: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    background-color: pink;
+  }
+
+  nav ul a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(76, 117, 131);
+    transition: 0.2s ease-in;
+    font-size: 18px;
+  }
+
+  nav ul a:hover {
+    background-color: rgb(222, 76, 100);
+    color: white
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .items img {
+    width: 100px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .items img:hover {
+    transition: scale(1.04);
+  }
+
+  .item h4 {
+    padding: 5px;
+    text-align: justify;
+  }
+
+  .item button {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 13px;
+    display: block;
+    margin-top;
+
+  }
+
+  .item button:hover {
+    transform: scale(1.08);
+    background-color: rgb(228, 225, 225);
+    transition: 0.2s ease-out;
+    color: black;
+  }

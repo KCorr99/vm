@@ -1,0 +1,13 @@
+.cart-button {
+  background-color: rgb(255, 0, 221;
+      color: pink;
+      border: none;
+      height: 50px;
+      width: 70px
+  }
+
+  .cart-button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 221);
+    color: white;
+  }
